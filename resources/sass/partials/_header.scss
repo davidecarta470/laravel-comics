@@ -1,0 +1,45 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size:12px;
+ 
+  .menu-right{
+    
+  
+    ul{
+      @include center($justify);
+      padding:0;
+      margin: 0;
+    
+      li{
+        &:hover a{
+          color:$primaryColor;
+          border-bottom: 5px solid $primaryColor;
+        }
+        a{
+          display: block;
+          height: 130px;
+          line-height:130px;
+          color:black;  
+          padding:0 10px; 
+        }
+      }  
+    }
+  }
+  .search{
+    border-bottom:2px solid $primaryColor;
+    input{
+      width: 80px;;
+      border :none;
+      &:focus{
+        outline: none;
+      }
+    }
+    button{
+      padding: 0 !important;
+      font-size: 14px !important;
+    }
+  }
+}
+   

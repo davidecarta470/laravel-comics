@@ -1,0 +1,32 @@
+main{
+
+    .series-container{
+      position: relative;
+      background-color:#1c1c1c;
+      width: 100%;
+       .current-series-absolute{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: absolute;
+         color:white;
+         background-color:$primaryColor;
+         height: 60px;
+         top: -30px;
+         padding:5px 30px;
+         h3{
+
+           margin:0px;
+         }
+       }
+      .wrapper{
+        display: flex;
+        flex-wrap:wrap;
+        padding:50px 0px ;
+         ul{
+           margin-bottom:0px;
+         }
+      }
+    }
+  
+  }

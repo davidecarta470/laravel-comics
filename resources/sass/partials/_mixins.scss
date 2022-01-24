@@ -1,0 +1,26 @@
+@mixin active(){
+  color:#0288f9;
+  border-bottom: 5px solid #0288f9;
+}
+
+
+@mixin center($type:0){
+  display:flex;
+  @if $type == "space around"{
+      justify-content:$type;
+    }
+  @else if $type == "center"{
+      align-items: $type;
+  }
+  @else{
+    justify-content:space-between;
+    align-items: center;
+  }
+}
+
+
+@mixin absolute($left,$bottom) {
+  position:absolute;
+  left:$left;
+  bottom:$bottom;
+}

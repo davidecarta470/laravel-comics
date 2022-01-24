@@ -1,0 +1,25 @@
+@import 'partials/generals';
+@import 'partials/vars';
+@import 'partials/mixins';
+@import 'partials/utilities';
+
+// header
+@import 'partials/header';
+
+
+// jumbotron
+@import 'partials/jumbotron';
+
+
+// view
+// view-home
+@import 'partials/main';
+@import 'partials/itemSeries';
+@import 'partials/contents';
+// view-comics
+@import 'partials/comics';
+
+
+
+// footer
+@import 'partials/footer';
